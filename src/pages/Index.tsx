@@ -83,7 +83,7 @@ const Index = () => {
               </div>
               <h3 className="font-heading font-bold text-xl mb-3 text-secondary">Разморозка труб</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Быстрая разморозка водопроводных и канализационных труб современным оборудованием
+                Быстрая разморозка водопроводных, канализационных труб и септиков современным оборудованием
               </p>
             </Card>
 
