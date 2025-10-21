@@ -9,7 +9,7 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Icon name="Droplets" className="text-primary" size={32} />
-            <span className="font-heading font-bold text-2xl text-secondary">ТеплоСервис</span>
+            <span className="font-heading font-bold text-2xl text-secondary">Разморозка 24</span>
           </div>
           <nav className="hidden md:flex gap-6">
             <a href="#home" className="text-foreground hover:text-primary transition-colors font-medium">Главная</a>
@@ -386,7 +386,7 @@ const Index = () => {
         <div className="container mx-auto px-4 text-center">
           <div className="flex items-center justify-center gap-2 mb-4">
             <Icon name="Droplets" size={24} />
-            <span className="font-heading font-bold text-xl">ТеплоСервис</span>
+            <span className="font-heading font-bold text-xl">Разморозка 24</span>
           </div>
           <p className="text-white/80">© 2024 Аварийная разморозка труб. Все права защищены.</p>
         </div>
