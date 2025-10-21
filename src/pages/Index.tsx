@@ -76,7 +76,7 @@ const Index = () => {
             Профессиональная разморозка труб любой сложности с гарантией качества
           </p>
           
-          <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
             <Card className="p-8 hover:shadow-lg transition-shadow bg-white border-0">
               <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-6">
                 <Icon name="Snowflake" className="text-primary" size={32} />
@@ -84,6 +84,16 @@ const Index = () => {
               <h3 className="font-heading font-bold text-xl mb-3 text-secondary">Разморозка труб</h3>
               <p className="text-muted-foreground leading-relaxed">
                 Быстрая разморозка водопроводных, канализационных труб и септиков современным оборудованием
+              </p>
+            </Card>
+
+            <Card className="p-8 hover:shadow-lg transition-shadow bg-white border-0">
+              <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-6">
+                <Icon name="Cable" className="text-primary" size={32} />
+              </div>
+              <h3 className="font-heading font-bold text-xl mb-3 text-secondary">Греющий кабель</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Установка греющего кабеля после разморозки для защиты труб от повторного замерзания
               </p>
             </Card>
 
