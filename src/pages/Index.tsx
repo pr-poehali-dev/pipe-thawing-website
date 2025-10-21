@@ -249,7 +249,7 @@ const Index = () => {
                 <Icon name="Building2" className="text-primary" size={28} />
                 <h3 className="font-heading font-bold text-2xl text-secondary">Города</h3>
               </div>
-              <ul className="space-y-2 text-sm text-muted-foreground">
+              <ul className="grid grid-cols-2 gap-x-4 gap-y-2 text-sm text-muted-foreground">
                 <li>• Балашиха</li>
                 <li>• Подольск</li>
                 <li>• Химки</li>
