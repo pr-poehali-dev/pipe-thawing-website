@@ -185,6 +185,20 @@ const Index = () => {
                     placeholder="Укажите адрес проблемы"
                   />
                 </div>
+                <div className="flex items-start gap-2">
+                  <input 
+                    type="checkbox" 
+                    id="privacy-policy"
+                    className="mt-1 w-4 h-4 text-primary border-gray-300 rounded focus:ring-primary"
+                    required
+                  />
+                  <label htmlFor="privacy-policy" className="text-sm text-muted-foreground">
+                    Я согласен с{' '}
+                    <a href="/privacy-policy" className="text-primary hover:underline">
+                      политикой конфиденциальности
+                    </a>
+                  </label>
+                </div>
                 <Button type="submit" size="lg" className="w-full bg-secondary hover:bg-secondary/90">
                   Отправить заявку
                 </Button>
