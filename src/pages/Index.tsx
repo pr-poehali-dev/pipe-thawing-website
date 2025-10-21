@@ -89,21 +89,21 @@ const Index = () => {
 
             <Card className="p-8 hover:shadow-lg transition-shadow bg-white border-0">
               <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-6">
-                <Icon name="Cable" className="text-primary" size={32} />
-              </div>
-              <h3 className="font-heading font-bold text-xl mb-3 text-secondary">Греющий кабель</h3>
-              <p className="text-muted-foreground leading-relaxed">
-                Установка греющего кабеля после разморозки для защиты труб от повторного замерзания
-              </p>
-            </Card>
-
-            <Card className="p-8 hover:shadow-lg transition-shadow bg-white border-0">
-              <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-6">
                 <Icon name="Truck" className="text-primary" size={32} />
               </div>
               <h3 className="font-heading font-bold text-xl mb-3 text-secondary">Выезд 24/7</h3>
               <p className="text-muted-foreground leading-relaxed">
                 Круглосуточная работа без выходных. Выезд специалиста в течение часа после звонка
+              </p>
+            </Card>
+
+            <Card className="p-8 hover:shadow-lg transition-shadow bg-white border-0">
+              <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-6">
+                <Icon name="Cable" className="text-primary" size={32} />
+              </div>
+              <h3 className="font-heading font-bold text-xl mb-3 text-secondary">Греющий кабель</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Установка греющего кабеля после разморозки для защиты труб от повторного замерзания
               </p>
             </Card>
 
