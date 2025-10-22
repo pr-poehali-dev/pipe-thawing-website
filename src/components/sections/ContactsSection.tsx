@@ -32,14 +32,24 @@ const ContactsSection = () => {
                 <span>Выезд по Москве и Московской области</span>
               </div>
             </div>
-            <Button 
-              size="lg" 
-              className="w-full mt-8 bg-white text-primary hover:bg-white/90 font-semibold"
-              onClick={() => window.location.href = 'tel:+79773211115'}
-            >
-              <Icon name="Phone" className="mr-2" size={20} />
-              Позвонить
-            </Button>
+            <div className="space-y-3 mt-8">
+              <Button 
+                size="lg" 
+                className="w-full bg-white text-primary hover:bg-white/90 font-semibold"
+                onClick={() => window.location.href = 'tel:+79773211115'}
+              >
+                <Icon name="Phone" className="mr-2" size={20} />
+                Позвонить
+              </Button>
+              <Button 
+                size="lg" 
+                className="w-full bg-green-600 hover:bg-green-700 text-white font-semibold"
+                onClick={() => window.open('https://wa.me/79773211115', '_blank')}
+              >
+                <Icon name="MessageCircle" className="mr-2" size={20} />
+                Написать в WhatsApp
+              </Button>
+            </div>
           </Card>
 
           <Card className="p-8 border-2 bg-white">

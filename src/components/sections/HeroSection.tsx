@@ -24,14 +24,14 @@ const HeroSection = () => {
               </Button>
               <Button 
                 size="lg" 
-                variant="outline"
-                className="text-lg px-8 py-6 border-2"
-                onClick={() => document.getElementById('contacts')?.scrollIntoView({ behavior: 'smooth' })}
+                className="text-lg px-8 py-6 bg-green-600 hover:bg-green-700 text-white"
+                onClick={() => window.open('https://wa.me/79773211115', '_blank')}
               >
-                Оставить заявку
+                <Icon name="MessageCircle" className="mr-2" size={24} />
+                WhatsApp
               </Button>
             </div>
-            <div className="flex items-center gap-8 pt-4">
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 pt-4">
               <div className="flex items-center gap-2">
                 <Icon name="Clock" className="text-primary" size={24} />
                 <span className="font-semibold">24/7</span>
@@ -39,6 +39,10 @@ const HeroSection = () => {
               <div className="flex items-center gap-2">
                 <Icon name="Zap" className="text-primary" size={24} />
                 <span className="font-semibold">Выезд за 1 час</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Icon name="DollarSign" className="text-primary" size={24} />
+                <span className="font-semibold">от 1500₽</span>
               </div>
             </div>
           </div>
