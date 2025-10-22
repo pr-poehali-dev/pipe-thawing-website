@@ -41,14 +41,14 @@ const HeroSection = () => {
                 <span className="font-semibold">Выезд за 1 час</span>
               </div>
               <div className="flex items-center gap-2">
-                <Icon name="DollarSign" className="text-primary" size={24} />
+                <Icon name="Banknote" className="text-primary" size={24} />
                 <span className="font-semibold">от 1500₽</span>
               </div>
             </div>
           </div>
           <div className="relative hidden lg:block">
             <div className="aspect-square rounded-2xl bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center">
-              <Icon name="Wrench" size={200} className="text-primary/30" />
+              <Icon name="Droplets" size={200} className="text-primary/30" />
             </div>
           </div>
         </div>

@@ -6,6 +6,7 @@ import ReviewsSection from "@/components/sections/ReviewsSection";
 import ContactsSection from "@/components/sections/ContactsSection";
 import GeographySection from "@/components/sections/GeographySection";
 import Footer from "@/components/sections/Footer";
+import FloatingCallButton from "@/components/FloatingCallButton";
 
 const Index = () => {
   return (
@@ -18,6 +19,7 @@ const Index = () => {
       <ContactsSection />
       <GeographySection />
       <Footer />
+      <FloatingCallButton />
     </div>
   );
 };
