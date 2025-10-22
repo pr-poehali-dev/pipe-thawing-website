@@ -17,7 +17,7 @@ const HeroSection = () => {
               <Button 
                 size="lg" 
                 className="text-lg px-8 py-6 bg-primary hover:bg-primary/90"
-                onClick={() => window.location.href = 'tel:+79991234567'}
+                onClick={() => window.location.href = 'tel:+79773211115'}
               >
                 <Icon name="Phone" className="mr-2" size={24} />
                 Позвонить сейчас

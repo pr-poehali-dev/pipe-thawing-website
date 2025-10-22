@@ -95,7 +95,7 @@ const PrivacyPolicy = () => {
               </h2>
               <p className="leading-relaxed">
                 Пользователь может в любой момент изменить или удалить предоставленную им персональную 
-                информацию, связавшись с нами по телефону +7 (999) 123-45-67 или отправив запрос 
+                информацию, связавшись с нами по телефону +7 (977) 321-11-15 или отправив запрос 
                 на электронную почту.
               </p>
             </section>
@@ -133,7 +133,7 @@ const PrivacyPolicy = () => {
               <div className="bg-muted/30 p-6 rounded-lg space-y-2">
                 <div className="flex items-center gap-3">
                   <Icon name="Phone" className="text-primary" size={20} />
-                  <span className="font-semibold">Телефон: +7 (999) 123-45-67</span>
+                  <span className="font-semibold">Телефон: +7 (977) 321-11-15</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Icon name="Clock" className="text-primary" size={20} />

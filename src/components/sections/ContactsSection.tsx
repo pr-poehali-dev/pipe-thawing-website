@@ -19,8 +19,8 @@ const ContactsSection = () => {
             <div className="space-y-4">
               <div className="flex items-center gap-3">
                 <Icon name="Phone" size={24} />
-                <a href="tel:+79991234567" className="text-xl font-semibold hover:underline">
-                  +7 (999) 123-45-67
+                <a href="tel:+79773211115" className="text-xl font-semibold hover:underline">
+                  +7 (977) 321-11-15
                 </a>
               </div>
               <div className="flex items-center gap-3">
@@ -35,7 +35,7 @@ const ContactsSection = () => {
             <Button 
               size="lg" 
               className="w-full mt-8 bg-white text-primary hover:bg-white/90 font-semibold"
-              onClick={() => window.location.href = 'tel:+79991234567'}
+              onClick={() => window.location.href = 'tel:+79773211115'}
             >
               <Icon name="Phone" className="mr-2" size={20} />
               Позвонить
@@ -58,7 +58,7 @@ const ContactsSection = () => {
                 <input 
                   type="tel" 
                   className="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent outline-none"
-                  placeholder="+7 (999) 123-45-67"
+                  placeholder="+7 (977) 321-11-15"
                 />
               </div>
               <div>
